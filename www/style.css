@@ -1,0 +1,29 @@
+.modal-footer-site{
+    /* background-color: blue; */
+    justify-content: flex-start;
+}
+
+.modal-footer-site--step-1,
+.modal-footer-site--step-2 {
+    display: none;
+}
+
+.modal-footer-site--step-1--visible{
+    display: block;
+}
+
+.modal-footer-site--step-2--visible{
+    display: block;
+}
+
+#test{
+    background-color: blue;
+    height: 30px;
+}
+/* .ABM-form__phone-number {
+    display: flex;
+} */
+
+.ABM-form__phone-number span {
+    padding: 0.5em;
+}
