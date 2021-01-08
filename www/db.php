@@ -11,6 +11,8 @@ $conn = mysqli_connect(
 
 mysqli_set_charset($conn, "utf8");
 
+$table_primary = 'patriotas01';
+
 // if (isset($conn)) {
 //     echo 'DB is connected';
 // }

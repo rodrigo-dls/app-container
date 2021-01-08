@@ -7,7 +7,7 @@
 
 if(isset($_GET['id'])) {
     $id = $_GET['id'];
-    $query = "SELECT * FROM patriotas01 WHERE id = $id";
+    $query = "SELECT * FROM $table_primary WHERE id = $id";
     $result = mysqli_query($conn, $query);
     if(mysqli_num_rows($result) == 1) {
         // echo "you can edit";
