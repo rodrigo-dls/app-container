@@ -3,7 +3,7 @@
 session_start();
 
 $conn = mysqli_connect(
-    'localhost',
+    'compatriotas-mysql',
     'compatriota',
     'cH8lM2Bd9Pe^tvKa',
     'patriotas_crud'
